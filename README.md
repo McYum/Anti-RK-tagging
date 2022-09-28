@@ -28,12 +28,10 @@ made for FEGK by Thienbao2109
 
 ## Methods
 
-<details>
-<summary>List</summary>
-	
-	RKTagger.SetPlayerTeam(player, Permanent, kill)
----
-	RKTagger.RemoveImmunity(player)
+<details open>
+<summary>List?</summary>
+<br>
+Well, you asked for it!
 </details>
 
 ## Setup/Installation

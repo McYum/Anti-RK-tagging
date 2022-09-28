@@ -23,7 +23,7 @@ made for FEGK by Thienbao2109
 
 ### **Server setup (required)**
 To get started with using the Anti-RK system require the module script each time you intend to use it as shown below.
-
+You will also need a remoteEvent called NotifyPlayer inside game.ReplicatedStorage.Remotes.
 ```lua
 -- This is a script you would create inside a server script
 local RKTagger = require(Module_path)

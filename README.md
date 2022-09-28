@@ -27,7 +27,13 @@ made for FEGK by Thienbao2109
 # API
 
 ## Methods
-
+  <summary>List</summary>
+  <ol>
+    <li>
+      <a href="#Lol">Lol</a>
+    </li>
+  </ol>
+</details>  
 ## Setup/Installation
 
 ### **Server setup (required)**

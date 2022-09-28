@@ -62,8 +62,15 @@ Removes a No-Kill tag from the Humanoid.
 Use case example punishment free D-Class killing zone
 	
 ```lua
--- This is a script you would create inside a server script
-local RKTagger = require(Module_path)
+-- Require the module first
+local Tagger = require(game.ServerScriptService.ServerModules.RKTagger)
+
+-- Listen for objects touching the parent
+script.Parent.Touched:Connect(function(obj)
+    if obj.Parent.Humanoid:FindFirstChild("No-Kill") then	
+	Tagger.RemoveTagger(obj.Parent.Humanoid) -- remove tag from player
+    end
+end)
 ```
 	
 ---

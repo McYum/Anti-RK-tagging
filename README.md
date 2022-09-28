@@ -1,5 +1,4 @@
-!([https://i.scdn.co/image/ab6761610000e5eb3f20f4c2d1d617842740ce6f])
-# Anti-RK-tagging
+![bruh](https://i.scdn.co/image/ab6761610000e5eb3f20f4c2d1d617842740ce6f)
 
 By: BOBOH                         
 made for FEGK by Thienbao2109

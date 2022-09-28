@@ -16,9 +16,9 @@ made for FEGK by Thienbao2109
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#Setup/Installation">Getting Started</a>
       <ul>
-        <li><a href="#Setup-Installation">Setup/Installation</a></li>
+        <li><a href="#Setup/Installation">Setup/Installation</a></li>
       </ul>
     </li>
   </ol>
@@ -34,9 +34,15 @@ made for FEGK by Thienbao2109
 	
 	RKTagger.SetPlayerTeam(player: player, Permanent: bool, kill: bool)
 	
-  Refreshes the player team, Permanent adds the player to the server team lock, kill kills the player during the procedure
+        Refreshes the player team, Permanent adds the player to the server team lock, kill kills the player during the procedure
 	
 ---
+	RKTagger.RemoveImmunity(player: player)
+	
+	Remove foundation team Immunity
+	
+---
+	
 </details>
 
 ## Setup/Installation

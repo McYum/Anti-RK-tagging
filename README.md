@@ -9,11 +9,13 @@ made for FEGK by Thienbao2109
 <details>
   <summary>Table of Contents</summary>
   <ol>
+	      <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#Setup-Installation">Setup/Installation</a></li>
+      </ul>
+    </li>
     <li>
-			<a href="#getting-started">Getting Started</a>
-			<ul>
-				<li><a href="#Setup-Installation">Setup/Installation</a></li>
-			</ul>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#Setup-Installation">Setup/Installation</a></li>

@@ -33,6 +33,8 @@ made for FEGK by Thienbao2109
 	
 ** This is a dropdown with text! **
 	
+---
+	
 </details>
 
 ## Setup/Installation

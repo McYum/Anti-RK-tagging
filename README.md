@@ -29,11 +29,11 @@ made for FEGK by Thienbao2109
 ## Methods
 
 <details>
-<summary>Example</summary>
+<summary>List</summary>
 	
 	RKTagger.SetPlayerTeam(player, Permanent, kill)
 ---
-	
+	RKTagger.RemoveImmunity(player)
 </details>
 
 ## Setup/Installation

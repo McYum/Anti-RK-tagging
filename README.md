@@ -85,3 +85,6 @@ end)
 
 ### **Client setup (optional)**
 If you wish the player to be notified of any kill infractions then follow the instructions below.
+
+```lua
+```

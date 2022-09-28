@@ -32,9 +32,9 @@ made for FEGK by Thienbao2109
 <summary>List</summary>
 <br>
 	
-	RKTagger.SetPlayerTeam(player, Permanent, kill)
+	RKTagger.SetPlayerTeam(player: player, Permanent: bool, kill: bool)
 	
-  Refreshes the player team
+  Refreshes the player team, Permanent adds the player to the server team lock, kill kills the player during the procedure
 	
 ---
 </details>

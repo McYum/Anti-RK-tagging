@@ -78,7 +78,7 @@ end)
 for i, v in pairs(game.Workspace.TaggedDummies:GetChildren()) do
    setupkilltagger(v)
 end
--- This will setup any Dummie that might get added in the future, make sure its actually a character with a Humanoid.
+-- This will setup any dummy that might get added in the future, make sure its actually a character with a humanoid.
 game.Workspace.TaggedDummies.ChildAdded:Connect(function(v)
     setupkilltagger(v)
 end)

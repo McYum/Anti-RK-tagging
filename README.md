@@ -31,7 +31,7 @@ made for FEGK by Thienbao2109
 <details>
 <summary>List</summary>
 <br>
-#This is how you dropdown.
+# This is how you dropdown.
 </details>
 
 ## Setup/Installation

@@ -27,13 +27,13 @@ made for FEGK by Thienbao2109
 # API
 
 ## Methods
-  <summary>List</summary>
-  <ol>
-    <li>
-      <a href="#Lol">Lol</a>
-    </li>
-  </ol>
-</details>  
+
+<details>
+<summary>How do I dropdown?</summary>
+<br>
+This is how you dropdown.
+</details>
+
 ## Setup/Installation
 
 ### **Server setup (required)**

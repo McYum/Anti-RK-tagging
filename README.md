@@ -49,13 +49,13 @@ Checks for the killer of the humanoid and punishes him accordingly.
 	
 ---	
 ```lua
-   RKTagger.AddTagger(Humanoid: obj)
+RKTagger.AddTagger(Humanoid: obj)
 ```	
 Adds a No-Kill tag to the humanoid.
 	
 ---
 ```lua
-   RKTagger.RemoveTagger(Humanoid)
+RKTagger.RemoveTagger(Humanoid)
 ```
 	
 Removes a No-Kill tag from the Humanoid.

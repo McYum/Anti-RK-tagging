@@ -1,4 +1,4 @@
-# Anti RK/RDM Prison for FEGK
+# Anti RK/RDM for FEGK
 ![bruh](https://c.tenor.com/QMf9LfAy5yEAAAAd/rdm-garrys-mod.gif)
 
 By: BOBOH                         

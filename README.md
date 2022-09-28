@@ -54,8 +54,9 @@ Checks for the killer of the humanoid and punishes him accordingly.
 Adds a No-Kill tag to the humanoid.
 	
 ---
-	
+	```lua
 	RKTagger.RemoveTagger(Humanoid)
+	```
 	
 Removes a No-Kill tag from the Humanoid.
 	
@@ -72,8 +73,6 @@ script.Parent.Touched:Connect(function(obj)
     end
 end)
 ```
-	
----
 	
 </details>
 

@@ -1,5 +1,5 @@
 # Anti RK/RDM for FEGK
-<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png](https://c.tenor.com/QMf9LfAy5yEAAAAd/rdm-garrys-mod.gif = 250x250" width="200" height="200" />
+<img src="https://camo.githubusercontent.com/...](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png](https://c.tenor.com/QMf9LfAy5yEAAAAd/rdm-garrys-mod.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png](https://c.tenor.com/QMf9LfAy5yEAAAAd/rdm-garrys-mod.gif = 250x250" width="200" height="200" />
 
 By: BOBOH                         
 made for FEGK by Thienbao2109

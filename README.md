@@ -4,6 +4,8 @@ By: BOBOH
 made for FEGK by Thienbao2109
 
 ## Documentation
+
+Setting the players RK Tag
 ```lua
 local descendants = game.Workspace.Model:GetDescendants()
  

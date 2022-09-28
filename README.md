@@ -15,7 +15,7 @@ made for FEGK by Thienbao2109
         <li><a href="#Methods">Methods</a></li>
       </ul>
     </li>
-    <li><a href="#Getting Started">Getting Started</a>
+    <li><a href="#Methods">Getting Started</a>
       <ul>
         <li><a href="##Setup/Installation">Setup/Installation</a></li>
       </ul>

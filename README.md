@@ -23,7 +23,9 @@ made for FEGK by Thienbao2109
     </li>
   </ol>
 </details>
-### API
+
+# API
+
 ## Methods
 
 ## Setup/Installation

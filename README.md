@@ -30,8 +30,9 @@ made for FEGK by Thienbao2109
 
 <details>
 <summary>List</summary>
-<br>
-# This is how you dropdown.
+	<br>
+	**This is how you dropdown.**
+	
 </details>
 
 ## Setup/Installation

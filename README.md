@@ -6,7 +6,6 @@ By: BOBOH
 made for FEGK by Thienbao2109
 
 ## Documentation
-[Setup/Installation](###Setup/Installation)
 ### Setup/Installation
 To get started with using the Anti-RK system require the module script each time you intend to use it as shown below
 ```lua
@@ -19,8 +18,7 @@ local RKTagger = require(Module_path)
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li>[Setup/Installation](###Setup/Installation)
       </ul>
     </li>
   </ol>

@@ -31,8 +31,11 @@ made for FEGK by Thienbao2109
 <details open>
 <summary>List</summary>
 <br>
+	
 	RKTagger.SetPlayerTeam(player, Permanent, kill)
+	
 	---
+	
 </details>
 
 ## Setup/Installation

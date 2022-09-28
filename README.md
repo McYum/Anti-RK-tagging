@@ -37,11 +37,6 @@ made for FEGK by Thienbao2109
         Refreshes the player team, Permanent adds the player to the server team lock, kill kills the player during the procedure
 	
 ---
-	RKTagger.RemoveImmunity(player: player)
-	
-	Remove foundation team Immunity
-	
----
 	
 </details>
 

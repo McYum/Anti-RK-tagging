@@ -29,9 +29,9 @@ made for FEGK by Thienbao2109
 ## Methods
 
 <details open>
-<summary>List?</summary>
+<summary>List</summary>
 <br>
-Well, you asked for it!
+** Well, you asked for it! **
 </details>
 
 ## Setup/Installation

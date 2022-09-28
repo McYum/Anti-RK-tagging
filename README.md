@@ -34,10 +34,12 @@ made for FEGK by Thienbao2109
 	
 	RKTagger.SetPlayerTeam(player: player, Permanent: bool, kill: bool)
 	
-Refreshes the player team, Permanent adds the player to the server team lock, kill kills the player during the procedure
+Refreshes the player team, Permanent adds the player to the server team lock, kill kills the player during the procedure.
 	
 ---
-	
+	RKTagger.RemoveImmunity(player: player)
+
+Enables the player to get killed by other foundations members punishment free.
 </details>
 
 ## Setup/Installation

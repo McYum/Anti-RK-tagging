@@ -1,5 +1,5 @@
 # Anti RK/RDM for FEGK
-<img src="https://image.shutterstock.com/shutterstock/photos/2138257775/display_1500/stock-photo-a-very-sad-crying-emoticon-cartoon-face-icon-2138257775.jpg" width=50% height=50%>
+<img src="https://image.shutterstock.com/shutterstock/photos/2138257775/display_1500/stock-photo-a-very-sad-crying-emoticon-cartoon-face-icon-2138257775.jpg" width=10% height=10%>
 
 By: BOBOH                         
 made for FEGK by Thienbao2109

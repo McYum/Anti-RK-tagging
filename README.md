@@ -21,7 +21,7 @@ made for FEGK by Thienbao2109
 
 ## Setup/Installation
 
-### Server setup(required)
+### **Server setup (required)**
 To get started with using the Anti-RK system require the module script each time you intend to use it as shown below.
 
 ```lua
@@ -84,5 +84,5 @@ game.Workspace.TaggedDummies.ChildAdded:Connect(function(v)
 end)
 ```
 
-### Client setup(optional)
+### **Client setup (optional)**
 If you wish the player to be notified if any infractions are being committed then follow the instructions below.

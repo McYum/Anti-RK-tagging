@@ -31,20 +31,23 @@ made for FEGK by Thienbao2109
 <details open>
 <summary>List</summary>
 <br>
-	
-	RKTagger.SetPlayerTeam(player: player, Permanent: bool, kill: bool)
+```lua
+RKTagger.SetPlayerTeam(player: player, Permanent: bool, kill: bool)
+```
 	
 Refreshes the player team, Permanent adds the player to the server team lock, kill kills the player during the procedure.
 	
 ---
-	RKTagger.RemoveImmunity(player: player)
-
+```lua
+RKTagger.RemoveImmunity(player: player)
+```
+	
 Enables the player to get killed by other foundations members punishment free.
 	
 ---
-	
-	RKTagger.HumDied(Humanoid: obj)
-
+```lua
+RKTagger.HumDied(Humanoid: obj)
+```
 Checks for the killer of the humanoid and punishes him accordingly.
 	
 ---	

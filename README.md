@@ -48,14 +48,14 @@ Enables the player to get killed by other foundations members punishment free.
 Checks for the killer of the humanoid and punishes him accordingly.
 	
 ---	
-
-	RKTagger.AddTagger(Humanoid: obj)
-	
+```lua
+   RKTagger.AddTagger(Humanoid: obj)
+```	
 Adds a No-Kill tag to the humanoid.
 	
 ---
 ```lua
-	RKTagger.RemoveTagger(Humanoid)
+   RKTagger.RemoveTagger(Humanoid)
 ```
 	
 Removes a No-Kill tag from the Humanoid.

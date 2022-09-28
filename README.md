@@ -44,8 +44,19 @@ Players.PlayerAdded:Connect(function(player)
     wait()
     player.CharacterAdded:connect(function(Character)
     -- listen for death
+    	for i, v in pairs(_G.TeamLockedPlayers) do -- check if player is on the server team lock, list gets handled by the module
+	   if v.Name == player.Name then
+	      RKTagger.SetPlayerTeam(v, false, false)
+	   end
+	end
+    	if player.Team == game.Teams.ClassD then -- Add a no kill tag for everyone in the ClassD team
+	   local val = Instance.new("BoolValue")
+	   val.Name = "No-Kill"
+	   val.Parent = Character.Humanoid
+	end
 	setupkilltagger(Character)
     end)
+    setupkilltagger(player.Character) -- Set it up once when the player joins for the first time
 end)
 ```
 Now incase you plan on using Anti RK on dummies you can do the following.
@@ -65,12 +76,18 @@ This is how the finished script should look like.
 
 ```lua
 -- Listen for players dying
+for i, v in pairs(_G.TeamLockedPlayers) do -- check if player is on the server team lock, list gets handled by the module
+    if v.Name == player.Name then
+       RKTagger.SetPlayerTeam(v, false, false)
+    end
+end
 Players.PlayerAdded:Connect(function(player)
     wait()
     player.CharacterAdded:connect(function(Character)
     -- listen for death
 	setupkilltagger(Character)
     end)
+    setupkilltagger(player.Character) -- Set it up once when the player joins for the first time
 end)
 
 -- This will loop trough all existing dummies inside a folder in worpkspace called TaggedDummies and will set them up.

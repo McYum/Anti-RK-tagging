@@ -1,6 +1,6 @@
-![bruh](https://c.tenor.com/QMf9LfAy5yEAAAAd/rdm-garrys-mod.gif)
-
 #Anti RK/RDM Prison Life style for FEGK
+
+![bruh](https://c.tenor.com/QMf9LfAy5yEAAAAd/rdm-garrys-mod.gif)
 
 By: BOBOH                         
 made for FEGK by Thienbao2109

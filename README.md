@@ -44,11 +44,11 @@ Players.PlayerAdded:Connect(function(player)
     wait()
     player.CharacterAdded:connect(function(Character)
     -- listen for death
-    	for i, v in pairs(_G.TeamLockedPlayers) do -- check if player is on the server team lock, list gets handled by the module
-	   if v.Name == player.Name then
-	      RKTagger.SetPlayerTeam(v, false, false)
-	   end
+    for i, v in pairs(_G.TeamLockedPlayers) do -- check if player is on the server team lock, list gets handled by the module
+        if v.Name == player.Name then
+	   RKTagger.SetPlayerTeam(v, false, false)
 	end
+     end
     	if player.Team == game.Teams.ClassD then -- Add a no kill tag for everyone in the ClassD team
 	   local val = Instance.new("BoolValue")
 	   val.Name = "No-Kill"

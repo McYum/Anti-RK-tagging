@@ -4,8 +4,12 @@ By: BOBOH
 made for FEGK by Thienbao2109
 
 ## Documentation
-```ruby
-function test() {
-  console.log("notice the blank line before this function?");
-}
+```lua
+local descendants = game.Workspace.Model:GetDescendants()
+ 
+-- Loop through all of the descendants of the model and
+-- print out their name
+for index, descendant in pairs(descendants) do
+	print(descendant.Name)
+end
 ```

@@ -1,3 +1,4 @@
 # Anti-RK-tagging
 
-Wassup
+By BOBOH
+made for FEGK by Thienbao2109

@@ -1,5 +1,5 @@
 # Anti RK/RDM for FEGK
-![bruh](https://c.tenor.com/QMf9LfAy5yEAAAAd/rdm-garrys-mod.gif)
+![bruh](https://c.tenor.com/QMf9LfAy5yEAAAAd/rdm-garrys-mod.gif = 250x250)
 
 By: BOBOH                         
 made for FEGK by Thienbao2109

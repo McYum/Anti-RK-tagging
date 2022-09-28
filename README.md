@@ -16,9 +16,9 @@ made for FEGK by Thienbao2109
       </ul>
     </li>
     <li>
-      <a href="#Setup/Installation">Getting Started</a>
+      <a href="#S#etup/Installation">Getting Started</a>
       <ul>
-        <li><a href="#Setup/Installation">Setup/Installation</a></li>
+        <li><a href="##Setup/Installation">Setup/Installation</a></li>
       </ul>
     </li>
   </ol>
@@ -40,6 +40,27 @@ Refreshes the player team, Permanent adds the player to the server team lock, ki
 	RKTagger.RemoveImmunity(player: player)
 
 Enables the player to get killed by other foundations members punishment free.
+	
+---
+	
+	RKTagger.HumDied(Humanoid: obj)
+
+Checks for the killer of the humanoid and punishes him accordingly.
+	
+---	
+
+	RKTagger.AddTagger(Humanoid: obj)
+	
+Adds a No-Kill tag to the humanoid.
+	
+---
+	
+	RKTagger.RemoveTagger(Humanoid)
+	
+Removes a No-Kill tag from the Humanoid.
+	
+---
+	
 </details>
 
 ## Setup/Installation

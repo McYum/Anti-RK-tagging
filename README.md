@@ -1,4 +1,4 @@
-![bruh](https://i.scdn.co/image/ab6761610000e5eb3f20f4c2d1d617842740ce6f)
+![bruh](https://c.tenor.com/QMf9LfAy5yEAAAAd/rdm-garrys-mod.gif)
 
 By: BOBOH                         
 made for FEGK by Thienbao2109

@@ -18,7 +18,7 @@ local RKTagger = require(Module_path)
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li>[Setup/Installation](###Setup/Installation)
+        [Setup/Installation](###Setup/Installation)
       </ul>
     </li>
   </ol>

@@ -31,6 +31,7 @@ made for FEGK by Thienbao2109
 <details open>
 <summary>List</summary>
 <br>
+	
 ```lua
 RKTagger.SetPlayerTeam(player: player, Permanent: bool, kill: bool)
 ```

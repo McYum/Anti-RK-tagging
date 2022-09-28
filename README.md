@@ -16,7 +16,7 @@ made for FEGK by Thienbao2109
       </ul>
     </li>
     <li>
-      <a href="#S#etup/Installation">Getting Started</a>
+      <a href="#Getting Started">Getting Started</a>
       <ul>
         <li><a href="##Setup/Installation">Setup/Installation</a></li>
       </ul>
@@ -79,6 +79,9 @@ end)
 ```
 	
 </details>
+
+
+# Getting Started
 
 ## Setup/Installation
 

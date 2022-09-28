@@ -38,6 +38,7 @@ local RKTagger = require(Module_path)
 -- this function will use the anti RK module to listen to killings, FEGK adds a killer Tag on default which we can use to determine the killer
 local function setupkilltagger(obj)
 	obj.Humanoid.Died:connect(function()
+	-- The module will handle kill infractions
 	RKTagger.HumDied(obj.Humanoid)
     end)
 end

@@ -59,6 +59,13 @@ Adds a No-Kill tag to the humanoid.
 	
 Removes a No-Kill tag from the Humanoid.
 	
+Use case example punishment free D-Class killing zone
+	
+```lua
+-- This is a script you would create inside a server script
+local RKTagger = require(Module_path)
+```
+	
 ---
 	
 </details>

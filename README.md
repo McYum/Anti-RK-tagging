@@ -104,4 +104,37 @@ end)
 If you wish the player to be notified of any kill infractions then follow the instructions below.
 
 ```lua
+-- Remotes
+local Notif = game.ReplicatedStorage.Remotes.NotifyPlayer -- you only need to get the remote and listen for it.
+local TS = game:GetService("TweenService")
+local Debris = game:GetService("Debris")
+local Player = game.Players.LocalPlayer
+
+-- function that runs upon warned, run whatever you want here
+local function warnplayer(reason, tk)
+	-- in this case we create a notification
+	-- reason is a string eg Team killing
+	local Clone = script.Parent.Main.Template:Clone()
+	Clone.Name = "Warn"
+	Clone.Visible = true
+	if tk == true then
+		Clone.Info.Text = "You have been caught killing ".. reason.. ", you can do that ".. Player.Character:GetAttribute("WarnedAmount2").. "x more and you will be punished!"
+	else
+		Clone.Info.Text = "You have been caught killing ".. reason.. ", do that ".. Player:GetAttribute("WarnedAmount").. "x  more and you will be punished!"
+	end
+	Clone.Parent = script.Parent.Main
+	
+	-- Basic UI animation
+	Clone.Position = UDim2.new(-1, 0,0.354, 0)
+	TS:Create(Clone, TweenInfo.new(1, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut,0), {Position = UDim2.new(0, 0,0.354, 0)}):Play()
+	task.delay(3, function()
+		TS:Create(Clone, TweenInfo.new(1, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut,0), {Position = UDim2.new(-1, 0,0.354, 0)}):Play()
+	end)
+	Debris:AddItem(Clone, 5)
+end
+
+-- Listen for warnings
+Notif.OnClientEvent:Connect(function(reason, tk)
+	warnplayer(reason, tk)
+end)
 ```

@@ -9,10 +9,10 @@ made for FEGK by Thienbao2109
 <details>
   <summary>Table of Contents</summary>
   <ol>
-	      <li>
-      <a href="#getting-started">Getting Started</a>
+    <li>
+      <a href="#API">Getting Started</a>
       <ul>
-        <li><a href="#Setup-Installation">Setup/Installation</a></li>
+        <li><a href="#Methods">Setup/Methods</a></li>
       </ul>
     </li>
     <li>
@@ -23,6 +23,8 @@ made for FEGK by Thienbao2109
     </li>
   </ol>
 </details>
+### API
+## Methods
 
 ## Setup/Installation
 

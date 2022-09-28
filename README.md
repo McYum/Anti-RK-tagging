@@ -32,14 +32,6 @@ made for FEGK by Thienbao2109
 <summary>Example</summary>
 	
 	RKTagger.SetPlayerTeam(player, Permanent, kill)
-
-	RKTagger.RemoveImmunity(player)
-
-	RKTagger.HumDied(Humanoid)
-
-	RKTagger.AddTagger(Humanoid)
-
-        RKTagger.RemoveTagger(Humanoid)
 ---
 	
 </details>

@@ -31,8 +31,15 @@ made for FEGK by Thienbao2109
 <details>
 <summary>Example</summary>
 	
-** This is a dropdown with text! **
-	
+	RKTagger.SetPlayerTeam(player, Permanent, kill)
+	---
+	RKTagger.RemoveImmunity(player)
+	---
+	RKTagger.HumDied(Humanoid)
+	---
+	RKTagger.AddTagger(Humanoid)
+	---
+        RKTagger.RemoveTagger(Humanoid)
 ---
 	
 </details>

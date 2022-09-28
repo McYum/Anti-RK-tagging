@@ -29,9 +29,9 @@ made for FEGK by Thienbao2109
 ## Methods
 
 <details>
-<summary>List</summary>
-	<br>
-	** This is how you dropdown. **
+<summary>Example</summary>
+	
+** This is a dropdown with text! **
 	
 </details>
 

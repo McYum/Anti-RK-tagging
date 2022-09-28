@@ -1,5 +1,5 @@
 # Anti RK/RDM for FEGK
-<img src="https://user-images.githubusercontent.com/16319829/81180309-2b51f000-8fee-11ea-8a78-ddfe8c3412a7.png](https://www.wikihow.com/images/thumb/f/f4/Avoid-Being-Killed-on-ROBLOX-Step-3.jpg/v4-460px-Avoid-Being-Killed-on-ROBLOX-Step-3.jpg.webp" width=50% height=50%>
+<img src="https://image.shutterstock.com/shutterstock/photos/2138257775/display_1500/stock-photo-a-very-sad-crying-emoticon-cartoon-face-icon-2138257775.jpg" width=50% height=50%>
 
 By: BOBOH                         
 made for FEGK by Thienbao2109

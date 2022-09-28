@@ -5,13 +5,7 @@ made for FEGK by Thienbao2109
 
 ## Documentation
 
-Setting the players RK Tag
+Installation, to get started with using the Anti-RK system require the script each time you want to use it in a script as shown below.
 ```lua
-local descendants = game.Workspace.Model:GetDescendants()
- 
--- Loop through all of the descendants of the model and
--- print out their name
-for index, descendant in pairs(descendants) do
-	print(descendant.Name)
-end
+local RKTagger = require(Module_path)
 ```

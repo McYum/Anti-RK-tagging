@@ -29,9 +29,9 @@ made for FEGK by Thienbao2109
 ## Methods
 
 <details>
-<summary>How do I dropdown?</summary>
+<summary>List</summary>
 <br>
-This is how you dropdown.
+#This is how you dropdown.
 </details>
 
 ## Setup/Installation

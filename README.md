@@ -85,4 +85,4 @@ end)
 ```
 
 ### **Client setup (optional)**
-If you wish the player to be notified if any infractions are being committed then follow the instructions below.
+If you wish the player to be notified of any kill infractions then follow the instructions below.

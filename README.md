@@ -10,9 +10,9 @@ made for FEGK by Thienbao2109
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#API">Getting Started</a>
+      <a href="#API">API</a>
       <ul>
-        <li><a href="#Methods">Setup/Methods</a></li>
+        <li><a href="#Methods">Methods</a></li>
       </ul>
     </li>
     <li>

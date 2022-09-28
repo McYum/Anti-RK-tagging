@@ -123,18 +123,18 @@ local function warnplayer(reason, tk)
 		Clone.Info.Text = "You have been caught killing ".. reason.. ", do that ".. Player:GetAttribute("WarnedAmount").. "x  more and you will be punished!"
 	end
 	Clone.Parent = script.Parent.Main
-	
+
 	-- Basic UI animation
 	Clone.Position = UDim2.new(-1, 0,0.354, 0)
 	TS:Create(Clone, TweenInfo.new(1, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut,0), {Position = UDim2.new(0, 0,0.354, 0)}):Play()
 	task.delay(3, function()
-		TS:Create(Clone, TweenInfo.new(1, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut,0), {Position = UDim2.new(-1, 0,0.354, 0)}):Play()
-	end)
-	Debris:AddItem(Clone, 5)
+	TS:Create(Clone, TweenInfo.new(1, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut,0), {Position = UDim2.new(-1, 0,0.354, 0)}):Play()
+   end)
+   Debris:AddItem(Clone, 5)
 end
 
 -- Listen for warnings
 Notif.OnClientEvent:Connect(function(reason, tk)
-	warnplayer(reason, tk)
+    warnplayer(reason, tk)
 end)
 ```

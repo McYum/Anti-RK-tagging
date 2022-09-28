@@ -33,8 +33,8 @@ made for FEGK by Thienbao2109
 <br>
 	
 	RKTagger.SetPlayerTeam(player, Permanent, kill)
-	Refreshes the player team
-  
+	
+  Refreshes the player team
 	
 ---
 </details>

@@ -83,3 +83,6 @@ game.Workspace.TaggedDummies.ChildAdded:Connect(function(v)
     setupkilltagger(v)
 end)
 ```
+
+### Client setup(optional)
+If you wish the player to be notified if any infractions are being committed then follow the instructions below.

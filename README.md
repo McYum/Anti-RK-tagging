@@ -181,11 +181,21 @@ local function warnplayer(reason, tk)
 	local Clone = script.Parent.Main.Template:Clone()
 	Clone.Name = "Warn"
 	Clone.Visible = true
+	
 	if tk == true then
-		Clone.Info.Text = "You have been caught killing ".. reason.. ", you can do that ".. Player.Character:GetAttribute("WarnedAmount2").. "x more and you will be punished!"
+		if Player.Character:GetAttribute("NoImmunity") then
+			Clone.Info.Text = "You lost immunity foundation members can now kill you legally!"
+		else
+			Clone.Info.Text = "You have been caught killing ".. reason.. ", you can do that ".. Player.Character:GetAttribute("WarnedAmount2").. "x more and you will be punished!"
+		end
 	else
-		Clone.Info.Text = "You have been caught killing ".. reason.. ", do that ".. Player:GetAttribute("WarnedAmount").. "x  more and you will be punished!"
+		if Player:GetAttribute("WarnedAmount") <= 0 then
+			Clone.Info.Text = "You will be permanently set to D-Class on this server for mass RK."
+		else
+			Clone.Info.Text = "You have been caught killing ".. reason.. ", do that ".. Player:GetAttribute("WarnedAmount").. "x  more and you will be punished!"
+		end
 	end
+	
 	Clone.Parent = script.Parent.Main
 	
 	-- Basic UI animation
